@@ -1,6 +1,6 @@
 # Riseup Africa — Local Development README
 
-This repository contains a small prototype web application (frontend + Flask backend) used to manage opportunities and youth profiles.
+This repository contains a web application (frontend + Flask backend) used to manage opportunities and youth profiles.
 
 The instructions below are written for Windows (PowerShell) and assume you have Python 3.10+ installed. They show how to set up a virtual environment, install dependencies, run the dev server, and run the automated tests.
 
