@@ -99,7 +99,7 @@ $env:BACKEND_DB_URI = 'sqlite:///C:\tmp\my_test.db'
 ```
 
 ## 6) API notes (useful endpoints)
-- `POST /api/register` — registers a new user. Prototype returns a `verification_url` you can open to verify the account.
+- `POST /api/register` — registers a new user. Web returns a `verification_url` you can open to verify the account.
 - `GET /api/verify?token=...` — verify an email token. This sets a session for the verified user.
 - `POST /api/login` — login (expects `email` and `password`). Sets a server-side session cookie.
 - `GET /api/me` — returns current session user info (authenticated/email/role/profiles).
@@ -162,4 +162,4 @@ Prepared by Deng Mayen Deng Akol (ALU)
 
 License
 -------
-This is project documentation for academic / prototype use. Add a license file if you want to make it public.
+This is project documentation for academic use.
